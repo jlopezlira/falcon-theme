@@ -18,18 +18,43 @@ In this section you will find the most easy way to customize your Kleeen Softwar
 ## File Structure
 
 ```sh
-├── assets                          # Main assets folder
-│   ├── fonts                       # Custom font family folder
-│   ├── static                      # Custom assets like images (jpg, svg, png)
-│   ├── styles                      # Custom styles (scss, sass, css) "we love scss"
-│   │   ├── _colors.scss            # Color Scheme partial (scss)
-│   │   ├── _dark.scss              # Dark theme partial (scss)
-│   │   ├── _light.scss             # Dark theme partial (scss)
-│   │   ├── _login.scss             # Login component partial (scss)
-│   │   ├── _mixins.scss            # Yes SASS is a programing language ;)
-│   │   ├── _resets.scss            # Clear current Authoring Tool Theme (scss)
-│   │   ├── custom.css              # You can use just common css (css)
-│   │   ├── custom.scss             # Loads all partials (scss)
+├── assets                                 # Main assets folder
+│   ├── fonts                              # Custom font family folder
+│   ├── static                             # Custom assets like images (jpg, svg, png)
+│   ├── styles                             # Custom styles (scss, sass, css) "we love scss"
+│   │   ├── ./sass/_colors.scss            # Color Scheme partial (scss)
+│   │   ├── ./sass/_mixins.scss            # Yes SASS is a programing language ;)
+│   │   ├── ./sass/_resets.scss            # Clear current Authoring Tool Theme (scss)
+│   │   ├── custom.css                     # You can use just common css (css)
+│   │   ├── custom.scss                    # Main SASS file (scss)
+│   │   ├── _ks-error-fallback             # KS Error handler SASS file (scss)
+│   │   ├── auth                           # Authentication
+│   │   │   ├── _all.scss
+│   │   │   ├── _forgot-password.scss
+│   │   │   ├── _sign-in.scss
+│   │   │   ├── _sign-up.scss
+│   │   ├── components                     # Components
+│   │   │   ├── _all.scss
+│   │   │   ├── _card-section.scss
+│   │   │   ├── _cross-links.scss
+│   │   │   ├── _date-picker-interval.scss
+│   │   │   ├── _dialog.scss
+│   │   │   ├── _filter-section.scss
+│   │   │   ├── _list.scss
+│   │   │   ├── _refresh-control.scss
+│   │   │   ├── _select-list.scss
+│   │   │   ├── _sign-in.scss
+│   │   │   ├── _snack-bar.scss
+│   │   │   ├── _view-switcher.scss
+│   │   │   ├── _widgets.scss
+│   │   ├── visualizations                 # Visualizations
+│   │   │   ├── _all.scss
+│   │   │   ├── _donut.scss
+│   │   │   ├── _gauge.scss
+│   │   │   ├── _linear-progress-bar.scss
+│   │   │   ├── _pie-chart.scss
+│   │   │   ├── _ranked-list.scss
+
 ```
 
 ### 💾 Step 1
