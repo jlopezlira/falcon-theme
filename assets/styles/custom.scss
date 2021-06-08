@@ -1,9 +1,10 @@
 /*
   "Design is intelligence made visible..."
   start building your custom SASS code here
-*/
+  */
 
-@import 'resets';
-@import 'login';
-@import 'dark';
-@import 'light';
+@import './sass/layout';
+@import './sass/loading';
+@import './sass/auth/all';
+@import './sass/components/all';
+@import './sass/visualizations/all';

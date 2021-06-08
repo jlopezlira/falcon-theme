@@ -1,0 +1,11 @@
+.ks-pie-chart {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(177, 235, 16, 0);
+  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  &:hover {
+    border-color: rgba(177, 235, 16, 0.7);
+    background-color: rgba(177, 235, 16, 0.1);
+  }
+}
