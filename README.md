@@ -44,7 +44,7 @@ Unzip your ***falcon theme***
 
 Replace the following directory
 
-```sh
+```bash
     /apps/cloud/src/app/assets # You can safely replace "assets" folder content
 ```
 
